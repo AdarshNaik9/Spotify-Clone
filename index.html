@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- <link rel="icon" type="image/x-icon" href="/favicon.ico"> -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="utility.css" />
+  </head>
+  <body>
+    <div class="container flex text-white">
+      <div class="left bg-black">
+        <div class="home border m-3 bg-grey rounded p-15">
+          <div class="logo">
+            <img class="invert spotify" src="logo.svg" alt="" />
+          </div>
+          <ul>
+            <li><img class="invert" src="home.svg" alt="alt" />Home</li>
+            <li><img class="invert" src="search.svg" alt="alt" />Search</li>
+          </ul>
+        </div>
+
+        <div class="library border m-3 bg-grey rounded p-15">
+          <div class="heading">
+            <img class="invert" src="playlist.svg" alt="" />
+            <h2>Your library</h2>
+          </div>
+          <div class="songList">
+            <ul>
+             
+            </ul>
+          </div>
+          <div class="links-container">
+            <a href="https://www.spotify.com/in-en/legal/"
+              target="_blank">Legal</a
+            >
+            <a href="https://www.spotify.com/in-en/safetyandprivacy/"
+              target="_blank">Safety & Privacy Center</a
+            >
+            <a href="https://www.spotify.com/in-en/legal/privacy-policy/"
+              target="_blank">Privacy Policy</a
+            >
+            <a href="https://www.spotify.com/in-en/legal/cookies-policy/"
+              target="_blank">Cookies</a
+            >
+            <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"
+              target="_blank">About Ads</a
+            >
+            <a href="https://www.spotify.com/in-en/accessibility/"
+              target="_blank">Accessibility</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="right border">
+        <div class="header border m-3 bg-grey rounded p-15">
+          <div class="nav">
+            <svg
+              class="invert"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              width="24"
+              height="24"
+              color="#000000"
+              fill="none"
+            >
+              <path
+                d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <svg
+              class="invert"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              width="24"
+              height="24"
+              color="#000000"
+              fill="none"
+            >
+              <path
+                d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <div class="buttons">
+            <button class="signup">Signup</button>
+            <button class="login">Login</button>
+          </div>
+        </div>
+        <div class="spotify-playlist border m-3 bg-grey rounded p-15">
+          <h3>Spotify Playlist</h3>
+          <div class="card-container flex">
+            <div class="card bg-white-grey">
+              <div class="playbtn">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                  <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                  <path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80L0 432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/>
+                </svg>
+              </div>
+              <img
+                src="img/ab67616d00001e021aa5adad8593923dcdf1a7d0.jpg" alt=""/>
+              <h4>Aashiqui 2</h4>
+              <h5> Mithoon Ankit Tiwari, Jeet Gannguli</h5>
+            </div>
+         
+          </div>
+          <div class="playbar">
+            <div class="seekbar">
+              <div class="circle">
+                
+              </div>
+            </div>
+            <div class="flexbox">
+
+              <div class="songinfo"></div>
+              <div class="song-button">
+                <img id="playprevious" class="invert  " width="25px" src="playprevious.svg" alt="" />
+                <img id="play" class="invert " width="18px" src="play.svg" alt="" />
+                <img id="playnext" class="invert " width="25px" src="playnext.svg" alt="" />
+              </div>
+              <div class="songtime"></div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

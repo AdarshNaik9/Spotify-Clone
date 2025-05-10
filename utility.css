@@ -1,0 +1,78 @@
+.border{
+    /* border: 1px solid  ; */
+
+}
+.flex{
+display: flex;
+}
+
+.justify-content{
+    justify-content: center;
+}
+.items-center{
+    align-items: center;
+}
+.text-white{
+    /* background-color: rgb(23, 23, 23); */
+    color: rgb(215, 215, 215);
+}
+.invert{
+    filter: invert(1);
+}   
+.bg-grey{
+    background-color: rgb(23, 23, 23);   
+}
+.bg-dark-grey{
+    background-color: rgb(20, 20, 20);   
+}
+.bg-white-grey{
+    background-color: rgb(31, 31, 31);
+}
+.rounded{
+    border-radius: 6px;
+}
+.m-1{
+    margin: 1px;
+}
+.m-2{
+    margin: 2px;
+}
+.m-3{
+    margin: 3px;
+}
+.p-15{
+    padding: 15px;
+}
+.p-2{
+    padding: 2px;
+}
+.p-4{
+    padding: 4px;
+}
+.p-6{
+    padding: 6px;
+}
+/* For Webkit-based browsers (Chrome, Edge, Safari) */
+::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #1e1e1e; /* Dark background */
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #444; /* Dark gray thumb */
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #666; /* Slightly lighter on hover */
+  }
+  
+  /* For Firefox */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #444 #1e1e1e;
+  }
