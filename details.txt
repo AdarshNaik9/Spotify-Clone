@@ -1,0 +1,2 @@
+httpsyour-site-name.netlify.img.jpg
+httpsyour-site-name.netlify.music.mp3
